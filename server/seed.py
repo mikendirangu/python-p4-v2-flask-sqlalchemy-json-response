@@ -29,3 +29,7 @@ with app.app_context():
 
     # Commit the transaction
     db.session.commit()
+
+    # Print a success message
+    # since this is run from the command line
+    print("Seeded pets!")
